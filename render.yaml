@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: run-mon-script
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
